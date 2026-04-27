@@ -9,5 +9,9 @@
   "packageManager": "pnpm@10.19.0",
   "devDependencies": {
     "typescript": "5.6.3"
+  },
+  "scripts": {
+    "build": "pnpm --filter @cm316/web build",
+    "start": "pnpm --filter @cm316/web start"
   }
 }
